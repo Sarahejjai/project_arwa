@@ -1,0 +1,102 @@
+ body {
+      background: #ddd;
+      font-family: sans-serif;
+      width: 100%;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .container {
+      width: 1000px;
+      margin: 30px auto;
+      display: block;
+
+    }
+
+    .header {
+      display: inline-block;
+      width: 100%;
+      padding: 16px;
+      background: #fff;
+      margin-bottom: 2px;
+    }
+
+    .car-name {
+      font-size: 18px;
+      font-weight: bold;
+      float: left;
+    }
+
+    .car-price {
+      font-size: 16px;
+      font-weight: bold;
+      float: right;
+    }
+
+    .content {
+      width: 100%;
+      display: inline-block
+    }
+
+    .content-left,
+    .content-right {
+      background: #fff;
+      padding: 16px;
+      float: left;
+    }
+
+    .content-left {
+      width: 642px;
+    }
+
+    .content-right {
+      width: 350px;
+      margin-left: 8px;
+    }
+
+    .car-collections {
+      display: inline-block;
+      float: left;
+    }
+
+    .car-image-small {
+      width: 20%;
+      padding: 12px;
+      border: 1px solid #ddd;
+      cursor:pointer
+    }
+
+    .car-image-large {
+      width: 378px;
+    }
+
+    .car-large {
+      text-align: center;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    ul li {
+      padding: 12px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .description {
+      float: right;
+      font-weight: bold;
+      font-size: 14px;
+      width: 150px;
+      word-break: break-all;
+      text-align:right
+    }
+
+    .label {
+      color: #a8a8a8;
+      font-size: 15px;
+    }
